@@ -5,11 +5,11 @@
 int main()
 {
 	double x{ getInput() };
-	std::cout << x;
+	double y{ getInput() };
 
-	char y{ getCharInput() };
-	std::cout << y;
-
+	char z{ getCharInput() };
+	
+	printResult(x, y, z);
 
     return 0;
 }
