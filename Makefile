@@ -10,4 +10,5 @@ io.o: io.cpp
 math.o: math.cpp
 	g++-10 -c math.cpp -std=c++20 -pedantic-errors -Weffc++ -Wextra -Wall -Wsign-Conversion -Werror	
 
-clean: rm *.o main
+clean:
+	rm *.o main
